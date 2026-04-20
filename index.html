@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hirret Media – Marketingová agentura Vyškov | Sociální sítě & Meta Ads</title>
+    <meta name="description" content="Hirret Media je marketingová agentura z Vyškova. Pomáháme lokálním firmám získávat zákazníky přes správu sociálních sítí, Meta Ads kampaně a tvorbu obsahu. Konzultace zdarma.">
+    <meta name="keywords" content="marketingová agentura Vyškov, správa sociálních sítí Vyškov, Meta Ads Jihomoravský kraj, Facebook reklama Vyškov, Instagram marketing lokální firmy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://hirretmedia.com">
+    <link rel="icon" type="image/svg+xml" href="hirret_media_icon.svg">
+
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="https://hirretmedia.com">
+    <meta property="og:title"       content="Hirret Media – Marketingová agentura Vyškov">
+    <meta property="og:description" content="Pomáháme lokálním firmám na Vyškovsku získávat více zákazníků přes sociální sítě a Meta Ads. Konzultace zdarma.">
+    <meta property="og:locale"      content="cs_CZ">
+    <meta name="twitter:card"       content="summary_large_image">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://hirretmedia.com/#organization",
+          "name": "Hirret Media",
+          "description": "Marketingová agentura specializující se na správu sociálních sítí, Meta Ads kampaně a tvorbu obsahu pro lokální firmy v regionu Vyškov a okolí.",
+          "url": "https://hirretmedia.com",
+          "email": "info@hirretmedia.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Vyškov",
+            "addressRegion": "Jihomoravský kraj",
+            "addressCountry": "CZ"
+          },
+          "sameAs": [
+            "https://www.instagram.com/hirretmedia",
+            "https://www.facebook.com/hirretmedia"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Jak rychle uvidím výsledky marketingu na sociálních sítích?",
+              "acceptedAnswer": { "@type": "Answer", "text": "První výsledky jsou obvykle viditelné do 4–8 týdnů. Meta Ads kampaně mohou přinést první výsledky již v prvním týdnu." }
+            },
+            {
+              "@type": "Question",
+              "name": "Kolik stojí správa sociálních sítí pro lokální firmu?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Cena se odvíjí od rozsahu spolupráce. Nabízíme bezplatnou konzultaci, kde navrhneme řešení přizpůsobené vašemu rozpočtu." }
+            },
+            {
+              "@type": "Question",
+              "name": "Musím mít velký rozpočet na reklamu na Facebooku?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Ne. Pro lokální firmy lze dosáhnout dobrých výsledků i s menším rozpočtem díky přesnému geografickému cílení." }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* ================================================================
+           DESIGN TOKENS — upravte zde barvy, fonty, spacing.
+           Změny se automaticky propagují celou stránkou.
+           ================================================================ */
+        :root {
+            /* --- Pozadí --- */
+            --bg-base:          #07070f;
+            --bg-card:          #0d0d1a;
+            --bg-alt:           #0a0a14;
+            --bg-input:         rgba(255, 255, 255, 0.04);
+
+            /* --- Zlaté akcenty --- */
+            --gold:             #c9a031;
+            --gold-light:       #e8c44a;
+            --gold-dark:        #9a7a20;
+            --gold-glow:        rgba(201, 160, 49, 0.15);
+            --gold-border:      rgba(201, 160, 49, 0.18);
+            --gold-border-hover:rgba(201, 160, 49, 0.55);
+
+            /* --- Texty --- */
+            --text-primary:     #f2f2f2;
+            --text-muted:       #8a8a9e;
+            --text-faint:       rgba(138, 138, 158, 0.45);
+
+            /* --- Typografie --- */
+            --font-display:     'Cormorant Garamond', Georgia, serif;
+            --font-body:        'Inter', system-ui, sans-serif;
+
+            /* --- Velikosti (fluid) --- */
+            --fs-hero:          clamp(3rem, 8vw, 7rem);
+            --fs-section:       clamp(2rem, 4.5vw, 3.5rem);
+            --fs-card-title:    clamp(1.2rem, 2vw, 1.45rem);
+            --fs-body:          1rem;
+            --fs-small:         0.875rem;
+            --fs-label:         0.72rem;
+
+            /* --- Spacing --- */
+            --section-y:        clamp(5rem, 10vw, 9rem);
+            --container-max:    1220px;
+            --container-px:     clamp(1.25rem, 5vw, 2.75rem);
+            --card-gap:         1.5rem;
+            --card-pad:         2.5rem;
+
+            /* --- Tvary & stíny --- */
+            --radius:           14px;
+            --radius-lg:        22px;
+            --radius-pill:      100px;
+            --shadow-card:      0 12px 40px rgba(0,0,0,0.45);
+            --shadow-gold:      0 0 50px rgba(201,160,49,0.12);
+
+            /* --- Přechody --- */
+            --ease:             0.3s ease;
+        }
+
+        /* ================================================================
+           RESET
+           ================================================================ */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            background: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-size: var(--fs-body);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        img  { max-width: 100%; display: block; }
+        a    { text-decoration: none; color: inherit; }
+        ul   { list-style: none; }
+        button { cursor: pointer; font-family: inherit; }
+
+        /* ================================================================
+           UTILITY
+           ================================================================ */
+        .container {
+            width: 100%;
+            max-width: var(--container-max);
+            margin-inline: auto;
+            padding-inline: var(--container-px);
+        }
+        .section      { padding-block: var(--section-y); }
+        .section--alt { background: var(--bg-alt); }
+
+        .label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: var(--fs-label);
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+        .label::before {
+            content: '';
+            display: inline-block;
+            width: 28px; height: 1.5px;
+            background: var(--gold);
+            border-radius: 1px;
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: var(--fs-section);
+            font-weight: 700;
+            line-height: 1.08;
+            letter-spacing: -0.01em;
+        }
+        .section-title em { font-style: italic; color: var(--gold); }
+        .gold-line {
+            width: 52px; height: 2px;
+            background: linear-gradient(90deg, var(--gold), transparent);
+            margin-block: 1.4rem;
+            border-radius: 1px;
+        }
+        .gold-line--center { margin-inline: auto; }
+        .section-desc {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 560px;
+            line-height: 1.85;
+        }
+
+        /* ================================================================
+           SCROLL REVEAL
+           ================================================================ */
+        .reveal {
+            opacity: 0;
+            transform: translateY(32px);
+            transition: opacity 0.75s ease, transform 0.75s ease;
+        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .delay-1 { transition-delay: 0.10s; }
+        .delay-2 { transition-delay: 0.20s; }
+        .delay-3 { transition-delay: 0.30s; }
+        .delay-4 { transition-delay: 0.42s; }
+        .delay-5 { transition-delay: 0.55s; }
+
+        /* ================================================================
+           BUTTONS
+           ================================================================ */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.45rem;
+            padding: 1rem 2.4rem;
+            border-radius: var(--radius-pill);
+            font-size: var(--fs-small);
+            font-weight: 600;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            transition: var(--ease);
+            border: none;
+            outline: none;
+            line-height: 1;
+        }
+        .btn--gold {
+            background: linear-gradient(130deg, var(--gold) 0%, var(--gold-light) 100%);
+            color: #07070f;
+        }
+        .btn--gold:hover {
+            background: linear-gradient(130deg, var(--gold-light) 0%, var(--gold) 100%);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 32px rgba(201,160,49,0.38);
+        }
+        .btn--gold:active { transform: translateY(-1px); }
+        .btn--outline {
+            background: transparent;
+            color: var(--gold);
+            border: 1.5px solid var(--gold);
+        }
+        .btn--outline:hover {
+            background: var(--gold);
+            color: #07070f;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 28px rgba(201,160,49,0.28);
+        }
+        .btn--lg { padding: 1.15rem 2.8rem; font-size: 0.95rem; }
+
+        /* ================================================================
+           NAVIGACE
+           ================================================================ */
+        .nav {
+            position: fixed;
+            inset: 0 0 auto;
+            z-index: 200;
+            padding-block: 1.2rem;
+            transition: background var(--ease), border-color var(--ease);
+        }
+        .nav.is-sticky {
+            background: rgba(7,7,15,0.93);
+            backdrop-filter: blur(16px) saturate(1.4);
+            -webkit-backdrop-filter: blur(16px) saturate(1.4);
+            border-bottom: 1px solid var(--gold-border);
+        }
+        .nav__inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+        .nav__logo { flex-shrink: 0; display: flex; align-items: center; }
+        .nav__logo img { height: 62px; width: auto; }
+        .nav__links { display: flex; gap: 2.5rem; align-items: center; }
+        .nav__links a {
+            font-size: var(--fs-small);
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
+            transition: color var(--ease);
+        }
+        .nav__links a:hover { color: var(--gold); }
+        .nav__cta { display: none; }
+        .nav__burger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 4px;
+        }
+        .nav__burger span {
+            display: block;
+            width: 24px; height: 2px;
+            background: var(--text-primary);
+            border-radius: 1px;
+            transition: var(--ease);
+        }
+        .nav__burger.is-open span:nth-child(1) { transform: rotate(45deg) translate(5px,5px); }
+        .nav__burger.is-open span:nth-child(2) { opacity: 0; }
+        .nav__burger.is-open span:nth-child(3) { transform: rotate(-45deg) translate(5px,-5px); }
+        @media (min-width: 768px) { .nav__cta { display: inline-flex; } }
+        @media (max-width: 767px) {
+            .nav__links {
+                display: none;
+                position: fixed;
+                top: 70px; left: 0; right: 0;
+                flex-direction: column;
+                gap: 0;
+                background: rgba(7,7,15,0.97);
+                backdrop-filter: blur(16px);
+                border-bottom: 1px solid var(--gold-border);
+                padding: 0.75rem 0 2rem;
+            }
+            .nav__links.is-open { display: flex; }
+            .nav__links a {
+                padding: 1rem var(--container-px);
+                font-size: 1rem;
+                color: var(--text-primary);
+                border-bottom: 1px solid rgba(255,255,255,0.04);
+            }
+            .nav__burger { display: flex; }
+        }
+
+        /* ================================================================
+           HERO
+           ================================================================ */
+        .hero {
+            min-height: 100svh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 7rem;
+            padding-bottom: 6rem;
+        }
+        .hero__grid {
+            position: absolute; inset: 0;
+            background-image:
+                linear-gradient(rgba(201,160,49,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(201,160,49,0.03) 1px, transparent 1px);
+            background-size: 70px 70px;
+            mask-image: radial-gradient(ellipse 75% 80% at 50% 50%, black 20%, transparent 100%);
+            pointer-events: none;
+        }
+        .hero__glow {
+            position: absolute;
+            top: 10%; left: 50%;
+            transform: translateX(-50%);
+            width: min(750px,92vw);
+            height: min(750px,92vw);
+            background: radial-gradient(circle, rgba(201,160,49,0.08) 0%, transparent 65%);
+            pointer-events: none;
+        }
+        .hero__content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+        .hero__eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.7rem;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 1.75rem;
+        }
+        .hero__eyebrow::before, .hero__eyebrow::after {
+            content: '';
+            display: inline-block;
+            width: 28px; height: 1.5px;
+            background: var(--gold);
+            border-radius: 1px;
+        }
+        .hero__title {
+            font-family: var(--font-display);
+            font-size: var(--fs-hero);
+            font-weight: 700;
+            line-height: 0.97;
+            letter-spacing: -0.025em;
+            margin-bottom: 1.75rem;
+        }
+        .hero__title .accent { color: var(--gold); font-style: italic; }
+        .hero__subtitle {
+            font-family: var(--font-display);
+            font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+        .hero__tagline {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-muted);
+            max-width: 560px;
+            line-height: 1.8;
+            margin-bottom: 2.5rem;
+        }
+        .hero__tagline strong { color: var(--text-primary); font-weight: 500; }
+        .hero__actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 3rem; }
+        .hero__proof {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem 2.5rem;
+            align-items: center;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gold-border);
+        }
+        .hero__proof-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+        .hero__proof-item::before {
+            content: '✦';
+            color: var(--gold);
+            font-size: 0.6rem;
+        }
+        .hero__scroll {
+            position: absolute;
+            bottom: 2rem; left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--text-faint);
+            animation: arrowBounce 2.2s ease-in-out infinite;
+        }
+        .hero__scroll svg {
+            width: 18px; height: 18px;
+            stroke: var(--gold);
+            opacity: 0.7;
+        }
+        @keyframes arrowBounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            55%       { transform: translateX(-50%) translateY(9px); }
+        }
+
+        /* ================================================================
+           STATS BAR — klíčová čísla (EDITUJTE HODNOTY)
+           ================================================================ */
+        .stats-bar {
+            background: var(--bg-card);
+            border-top: 1px solid var(--gold-border);
+            border-bottom: 1px solid var(--gold-border);
+            padding-block: 2.5rem;
+        }
+        .stats-bar__grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            text-align: center;
+        }
+        .stat {
+            padding: 0.5rem;
+            border-right: 1px solid var(--gold-border);
+        }
+        .stat:last-child { border-right: none; }
+        .stat__value {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            color: var(--gold);
+            line-height: 1;
+            margin-bottom: 0.4rem;
+        }
+        .stat__label {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+        @media (max-width: 640px) {
+            .stats-bar__grid { grid-template-columns: repeat(2, 1fr); }
+            .stat:nth-child(2) { border-right: none; }
+            .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--gold-border); padding-bottom: 1.25rem; }
+        }
+
+        /* ================================================================
+           SERVICES
+           ================================================================ */
+        .services__head { max-width: 620px; margin-bottom: 3.75rem; }
+        .services__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+            gap: var(--card-gap);
+        }
+        .service-card {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: var(--card-pad);
+            position: relative;
+            overflow: hidden;
+            transition: border-color var(--ease), transform var(--ease), box-shadow var(--ease);
+        }
+        .service-card::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--gold), transparent 80%);
+            opacity: 0;
+            transition: opacity var(--ease);
+        }
+        .service-card:hover {
+            border-color: var(--gold-border-hover);
+            transform: translateY(-7px);
+            box-shadow: var(--shadow-gold);
+        }
+        .service-card:hover::after { opacity: 1; }
+        .service-card__icon {
+            width: 54px; height: 54px;
+            background: rgba(201,160,49,0.10);
+            border: 1px solid rgba(201,160,49,0.18);
+            border-radius: 14px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.7rem;
+            margin-bottom: 1.6rem;
+        }
+        .service-card__title {
+            font-family: var(--font-display);
+            font-size: var(--fs-card-title);
+            font-weight: 700;
+            margin-bottom: 0.8rem;
+        }
+        .service-card__text {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.82;
+        }
+        .service-card__tags {
+            display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.6rem;
+        }
+        .tag {
+            font-size: 0.73rem;
+            font-weight: 500;
+            padding: 0.28rem 0.75rem;
+            border-radius: var(--radius-pill);
+            background: rgba(201,160,49,0.08);
+            border: 1px solid rgba(201,160,49,0.22);
+            color: var(--gold);
+            letter-spacing: 0.04em;
+        }
+
+        /* ================================================================
+           PROČ MY
+           ================================================================ */
+        .why__layout {
+            display: grid;
+            grid-template-columns: 1.1fr 0.9fr;
+            gap: 5rem;
+            align-items: center;
+        }
+        .why__list { display: flex; flex-direction: column; gap: 2.2rem; margin-top: 1rem; }
+        .adv { display: flex; gap: 1.6rem; align-items: flex-start; }
+        .adv__num {
+            flex-shrink: 0;
+            width: 46px; height: 46px;
+            border: 1.5px solid var(--gold);
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.05rem; font-weight: 700;
+            color: var(--gold);
+        }
+        .adv__body h3 {
+            font-family: var(--font-display);
+            font-size: 1.35rem; font-weight: 700;
+            margin-bottom: 0.35rem;
+        }
+        .adv__body p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.82; }
+        .why__quote-card {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: 2.75rem;
+            text-align: center;
+            position: relative;
+        }
+        .why__quote-card::before {
+            content: '\201E';
+            position: absolute;
+            top: -0.6rem; left: 1.5rem;
+            font-family: var(--font-display);
+            font-size: 7rem;
+            color: var(--gold);
+            opacity: 0.12;
+            line-height: 1;
+        }
+        .why__quote {
+            font-family: var(--font-display);
+            font-size: 1.35rem;
+            font-style: italic;
+            line-height: 1.65;
+            margin-bottom: 1.75rem;
+            position: relative;
+        }
+        .why__author { font-size: 0.85rem; color: var(--text-muted); }
+        .why__author strong { display: block; font-size: 0.9rem; color: var(--gold); margin-top: 0.3rem; }
+        @media (max-width: 960px) { .why__layout { grid-template-columns: 1fr; gap: 3rem; } }
+
+        /* ================================================================
+           VÝSLEDKY / CASE STUDIES — EDITUJTE HODNOTY
+           ================================================================ */
+        .results__head { text-align: center; margin-bottom: 4rem; }
+        .results__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--card-gap);
+        }
+        .result-card {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: var(--card-pad);
+            position: relative;
+            overflow: hidden;
+            transition: border-color var(--ease), transform var(--ease), box-shadow var(--ease);
+        }
+        .result-card:hover {
+            border-color: var(--gold-border-hover);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-gold);
+        }
+        .result-card__industry {
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 1rem;
+        }
+        .result-card__metric {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: var(--gold);
+            line-height: 1;
+            margin-bottom: 0.3rem;
+        }
+        .result-card__metric-label {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1.25rem;
+        }
+        .result-card__desc {
+            font-size: 0.93rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--gold-border);
+        }
+        .result-card__accent {
+            position: absolute;
+            top: 0; right: 0;
+            width: 120px; height: 120px;
+            background: radial-gradient(circle at top right, rgba(201,160,49,0.07), transparent 70%);
+            pointer-events: none;
+        }
+
+        /* ================================================================
+           TESTIMONIALY
+           ================================================================ */
+        .testi__head { text-align: center; margin-bottom: 4rem; }
+        .testi__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--card-gap);
+        }
+        .testi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: 2.25rem;
+            position: relative;
+            transition: border-color var(--ease), box-shadow var(--ease);
+        }
+        .testi-card:hover {
+            border-color: var(--gold-border-hover);
+            box-shadow: var(--shadow-gold);
+        }
+        .testi-card__stars {
+            display: flex;
+            gap: 3px;
+            margin-bottom: 1.2rem;
+        }
+        .testi-card__stars span {
+            color: var(--gold);
+            font-size: 1rem;
+        }
+        .testi-card__text {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-style: italic;
+            line-height: 1.72;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+        }
+        .testi-card__author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .testi-card__avatar {
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            background: rgba(201,160,49,0.15);
+            border: 1.5px solid var(--gold-border);
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--gold);
+            flex-shrink: 0;
+        }
+        .testi-card__name {
+            font-weight: 600;
+            font-size: 0.9rem;
+            margin-bottom: 0.15rem;
+        }
+        .testi-card__company {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        /* ================================================================
+           JAK PRACUJEME
+           ================================================================ */
+        .process__head { text-align: center; margin-bottom: 4rem; }
+        .process__grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: var(--card-gap);
+            position: relative;
+        }
+        .process__grid::before {
+            content: '';
+            position: absolute;
+            top: 2.5rem;
+            left: calc(12.5% + 1.5rem);
+            right: calc(12.5% + 1.5rem);
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold-border), var(--gold-border), transparent);
+            pointer-events: none;
+        }
+        .process-step {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: 2.25rem;
+            text-align: center;
+            transition: border-color var(--ease), transform var(--ease), box-shadow var(--ease);
+        }
+        .process-step:hover {
+            border-color: var(--gold-border-hover);
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-gold);
+        }
+        .process-step__num {
+            width: 52px; height: 52px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.2rem; font-weight: 700;
+            color: #07070f;
+            margin: 0 auto 1.5rem;
+            position: relative; z-index: 1;
+        }
+        .process-step__title {
+            font-family: var(--font-display);
+            font-size: 1.3rem; font-weight: 700;
+            margin-bottom: 0.7rem;
+        }
+        .process-step__text { font-size: 0.92rem; color: var(--text-muted); line-height: 1.8; }
+        @media (max-width: 768px) { .process__grid::before { display: none; } }
+
+        /* ================================================================
+           FAQ
+           ================================================================ */
+        .faq__head { max-width: 620px; margin-bottom: 3rem; }
+        .faq__list {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+        .faq-item {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--gold-border);
+        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-item__btn {
+            width: 100%;
+            display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+            padding: 1.5rem 2rem;
+            background: none; border: none;
+            text-align: left;
+            font-family: var(--font-display);
+            font-size: 1.15rem; font-weight: 700;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: color var(--ease), background var(--ease);
+        }
+        .faq-item__btn:hover { color: var(--gold); background: rgba(201,160,49,0.03); }
+        .faq-item__btn.open  { color: var(--gold); }
+        .faq-item__icon {
+            flex-shrink: 0;
+            width: 24px; height: 24px;
+            border: 1.5px solid currentColor;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1rem;
+            transition: transform var(--ease);
+        }
+        .faq-item__btn.open .faq-item__icon { transform: rotate(45deg); }
+        .faq-item__answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+        .faq-item__answer.open { max-height: 300px; }
+        .faq-item__answer-inner {
+            padding: 0 2rem 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.85;
+        }
+        @media (max-width: 600px) {
+            .faq-item__btn       { padding: 1.25rem; font-size: 1rem; }
+            .faq-item__answer-inner { padding: 0 1.25rem 1.25rem; }
+        }
+
+        /* ================================================================
+           CTA BANNER
+           ================================================================ */
+        .cta-banner {
+            background: linear-gradient(135deg, rgba(201,160,49,0.12) 0%, rgba(201,160,49,0.04) 100%);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4rem);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse 60% 70% at 50% 50%, rgba(201,160,49,0.07), transparent);
+            pointer-events: none;
+        }
+        .cta-banner__title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3.2rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .cta-banner__title em { font-style: italic; color: var(--gold); }
+        .cta-banner__text {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 480px;
+            margin: 0 auto 2.25rem;
+            line-height: 1.8;
+            position: relative;
+        }
+        .cta-banner__actions {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            position: relative;
+        }
+
+        /* ================================================================
+           KONTAKT
+           ================================================================ */
+        .contact__layout {
+            display: grid;
+            grid-template-columns: 1fr 1.45fr;
+            gap: 5rem;
+            align-items: start;
+        }
+        .contact__details { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1.3rem; }
+        .contact__row { display: flex; align-items: center; gap: 1rem; font-size: 0.95rem; color: var(--text-muted); }
+        .contact__row-icon {
+            width: 42px; height: 42px;
+            background: rgba(201,160,49,0.09);
+            border: 1px solid rgba(201,160,49,0.18);
+            border-radius: 11px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+        .contact__row a:hover { color: var(--gold); }
+        .form-box {
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius-lg);
+            padding: var(--card-pad);
+        }
+        .form-group { margin-bottom: 1.2rem; }
+        .form-label {
+            display: block;
+            font-size: 0.76rem; font-weight: 600;
+            letter-spacing: 0.13em; text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+        .form-input, .form-textarea {
+            width: 100%;
+            background: var(--bg-input);
+            border: 1px solid var(--gold-border);
+            border-radius: var(--radius);
+            padding: 0.88rem 1.1rem;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            color: var(--text-primary);
+            transition: border-color var(--ease), background var(--ease);
+            outline: none;
+            appearance: none;
+        }
+        .form-input::placeholder, .form-textarea::placeholder { color: rgba(138,138,158,0.45); }
+        .form-input:focus, .form-textarea:focus {
+            border-color: var(--gold);
+            background: rgba(201,160,49,0.04);
+        }
+        .form-textarea { resize: vertical; min-height: 130px; }
+        .form-submit { width: 100%; margin-top: 0.5rem; padding-block: 1.05rem; font-size: 0.9rem; }
+        .form-success { display: none; text-align: center; padding: 2.5rem 1rem; }
+        .form-success__icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+        .form-success__title {
+            font-family: var(--font-display);
+            font-size: 1.6rem; font-weight: 700;
+            color: var(--gold); margin-bottom: 0.5rem;
+        }
+        .form-success__text { color: var(--text-muted); font-size: 0.95rem; }
+        @media (max-width: 960px) { .contact__layout { grid-template-columns: 1fr; gap: 3rem; } }
+
+        /* ================================================================
+           FOOTER
+           ================================================================ */
+        .footer {
+            border-top: 1px solid var(--gold-border);
+            padding-block: 2.75rem;
+        }
+        .footer__inner {
+            display: flex; align-items: center; justify-content: space-between;
+            flex-wrap: wrap; gap: 1.5rem;
+        }
+        .footer__logo img { height: 54px; width: auto; }
+        .footer__links { display: flex; gap: 2rem; }
+        .footer__links a {
+            font-size: var(--fs-small);
+            color: var(--text-muted);
+            transition: color var(--ease);
+        }
+        .footer__links a:hover { color: var(--gold); }
+        .footer__copy { font-size: 0.8rem; color: var(--text-faint); }
+        @media (max-width: 600px) {
+            .footer__inner { flex-direction: column; text-align: center; }
+            .footer__links { gap: 1.5rem; }
+        }
+
+        /* ================================================================
+           FLOATING WHATSAPP
+           ================================================================ */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 2rem; right: 2rem;
+            z-index: 150;
+            width: 58px; height: 58px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 6px 24px rgba(201,160,49,0.4);
+            transition: transform var(--ease), box-shadow var(--ease);
+            border: none; cursor: pointer;
+        }
+        .whatsapp-btn:hover {
+            transform: translateY(-4px) scale(1.06);
+            box-shadow: 0 12px 36px rgba(201,160,49,0.55);
+        }
+        .whatsapp-btn svg { width: 28px; height: 28px; fill: #07070f; }
+        .whatsapp-btn__tooltip {
+            position: absolute; right: 68px;
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            color: var(--text-primary);
+            font-size: 0.8rem; font-weight: 500;
+            white-space: nowrap;
+            padding: 0.5rem 0.9rem;
+            border-radius: var(--radius-pill);
+            pointer-events: none;
+            opacity: 0;
+            transform: translateX(6px);
+            transition: opacity var(--ease), transform var(--ease);
+        }
+        .whatsapp-btn:hover .whatsapp-btn__tooltip { opacity: 1; transform: translateX(0); }
+
+        /* ================================================================
+           TOAST & COOKIE
+           ================================================================ */
+        .toast {
+            position: fixed; bottom: 2rem; left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: var(--bg-card);
+            border: 1px solid var(--gold-border);
+            color: var(--gold);
+            font-size: 0.88rem; font-weight: 500;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius-pill);
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            z-index: 999;
+            white-space: nowrap;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+        .email-copy {
+            background: none; border: none; padding: 0;
+            font-family: var(--font-body); font-size: 0.95rem;
+            color: var(--text-muted); cursor: pointer;
+            transition: color var(--ease);
+        }
+        .email-copy:hover { color: var(--gold); }
+        .cookie-banner {
+            position: fixed; bottom: 0; left: 0; right: 0;
+            z-index: 300;
+            background: rgba(7,7,15,0.97);
+            backdrop-filter: blur(16px);
+            border-top: 1px solid var(--gold-border);
+            padding: 1.5rem var(--container-px);
+            display: flex; align-items: center; justify-content: space-between;
+            gap: 2rem; flex-wrap: wrap;
+            transform: translateY(0);
+            transition: transform 0.4s ease;
+        }
+        .cookie-banner.hidden { transform: translateY(110%); pointer-events: none; }
+        .cookie-banner__text { font-size: 0.88rem; color: var(--text-muted); max-width: 680px; line-height: 1.6; }
+        .cookie-banner__text strong { color: var(--text-primary); }
+        .cookie-banner__actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
+        .cookie-btn {
+            padding: 0.65rem 1.5rem;
+            border-radius: var(--radius-pill);
+            font-size: 0.82rem; font-weight: 600;
+            letter-spacing: 0.06em; text-transform: uppercase;
+            cursor: pointer; border: none; transition: var(--ease);
+        }
+        .cookie-btn--accept {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            color: #07070f;
+        }
+        .cookie-btn--accept:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(201,160,49,0.35); }
+        .cookie-btn--reject {
+            background: transparent; color: var(--text-muted);
+            border: 1.5px solid rgba(138,138,158,0.3);
+        }
+        .cookie-btn--reject:hover { border-color: var(--text-muted); color: var(--text-primary); }
+
+        @media (max-width: 600px) {
+            .cookie-banner { flex-direction: column; align-items: flex-start; gap: 1rem; }
+            .cookie-banner__actions { width: 100%; }
+            .cookie-btn { flex: 1; text-align: center; }
+            .whatsapp-btn { bottom: 1.25rem; right: 1.25rem; width: 52px; height: 52px; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .reveal, .hero__scroll { animation: none !important; transition: none !important; }
+            .reveal { opacity: 1; transform: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================================
+         NAVIGACE
+         ============================================================ -->
+    <nav class="nav" id="mainNav" aria-label="Hlavní navigace">
+        <div class="container nav__inner">
+            <a href="#uvod" class="nav__logo" aria-label="Hirret Media — domů">
+                <img src="hirret_media_icon_nobg.svg" alt="Hirret Media" height="62" width="auto" loading="eager">
+            </a>
+            <ul class="nav__links" id="navLinks" role="list">
+                <li><a href="#sluzby">Služby</a></li>
+                <li><a href="#vysledky">Výsledky</a></li>
+                <li><a href="#proc-my">O nás</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <a href="#kontakt" class="btn btn--gold nav__cta">Konzultace zdarma</a>
+            <button class="nav__burger" id="navBurger" aria-label="Otevřít menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero" id="uvod" aria-label="Úvod">
+        <div class="hero__grid"  aria-hidden="true"></div>
+        <div class="hero__glow"  aria-hidden="true"></div>
+
+        <div class="container">
+            <div class="hero__content">
+
+                <div class="hero__eyebrow reveal">
+                    Marketingová agentura &middot; Vyškov &amp; Jihomoravský kraj
+                </div>
+
+                <!-- ✏️ EDITUJTE: Hlavní nadpis -->
+                <h1 class="hero__title reveal delay-1">
+                    Přestaňte spalovat<br>
+                    rozpočet a <span class="accent">nehádejte</span><br>
+                    se s výsledky.
+                </h1>
+
+                <!-- ✏️ EDITUJTE: Podnadpis -->
+                <p class="hero__subtitle reveal delay-2">
+                    Marketing, který se odráží v číslech — ne v slibech.
+                </p>
+
+                <!-- ✏️ EDITUJTE: Popis -->
+                <p class="hero__tagline reveal delay-3">
+                    Pomáháme <strong>lokálním firmám na Vyškovsku</strong> získávat více zákazníků
+                    přes sociální sítě a cílenou Meta Ads reklamu. Bez háze peněz do tmy —
+                    jen strategie, data a výsledky.
+                </p>
+
+                <div class="hero__actions reveal delay-4">
+                    <a href="#kontakt" class="btn btn--gold btn--lg">Chci více zákazníků &rarr;</a>
+                    <a href="#sluzby"  class="btn btn--outline">Jak to děláme</a>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Důvěryhodnostní body pod CTA -->
+                <div class="hero__proof reveal delay-5">
+                    <span class="hero__proof-item">Konzultace zdarma</span>
+                    <span class="hero__proof-item">Bez dlouhodobých závazků</span>
+                    <span class="hero__proof-item">Odpověď do 24 hodin</span>
+                    <span class="hero__proof-item">Přímá komunikace</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         STATS BAR — ✏️ EDITUJTE: Vaše klíčová čísla
+         ============================================================ -->
+    <div class="stats-bar" aria-label="Klíčová čísla">
+        <div class="container">
+            <div class="stats-bar__grid">
+                <div class="stat reveal">
+                    <!-- ✏️ Změňte číslo -->
+                    <div class="stat__value">50+</div>
+                    <div class="stat__label">Spokojených klientů</div>
+                </div>
+                <div class="stat reveal delay-1">
+                    <!-- ✏️ Změňte číslo -->
+                    <div class="stat__value">2M+</div>
+                    <div class="stat__label">Kč utracených v reklamách</div>
+                </div>
+                <div class="stat reveal delay-2">
+                    <!-- ✏️ Změňte číslo -->
+                    <div class="stat__value">4,9★</div>
+                    <div class="stat__label">Průměrné hodnocení</div>
+                </div>
+                <div class="stat reveal delay-3">
+                    <!-- ✏️ Změňte číslo -->
+                    <div class="stat__value">3 roky</div>
+                    <div class="stat__label">Na trhu v regionu</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================================================
+         SLUŽBY
+         ============================================================ -->
+    <section class="section section--alt" id="sluzby" aria-labelledby="sluzby-title">
+        <div class="container">
+
+            <header class="services__head">
+                <span class="label reveal">Naše služby</span>
+                <h2 class="section-title reveal delay-1" id="sluzby-title">
+                    Co <em>děláme</em>
+                </h2>
+                <div class="gold-line reveal delay-1"></div>
+                <p class="section-desc reveal delay-2">
+                    Specializujeme se na digitální marketing pro místní podnikatele. Přinášíme
+                    strategie světových značek přímo do vašeho regionu — přizpůsobené vašemu
+                    trhu a vašim zákazníkům.
+                </p>
+            </header>
+
+            <div class="services__grid">
+
+                <article class="service-card reveal delay-1">
+                    <div class="service-card__icon" aria-hidden="true">📱</div>
+                    <h3 class="service-card__title">Správa sociálních sítí</h3>
+                    <!-- ✏️ EDITUJTE: Popis služby -->
+                    <p class="service-card__text">
+                        Staráme se o vaše profily na Instagramu a Facebooku od A do Z.
+                        Pravidelný obsah, vizuální identita i komunikace s fanoušky —
+                        vše sladěné s vaší značkou.
+                    </p>
+                    <div class="service-card__tags">
+                        <span class="tag">Instagram</span>
+                        <span class="tag">Facebook</span>
+                        <span class="tag">Community management</span>
+                        <span class="tag">Stories & Reels</span>
+                    </div>
+                </article>
+
+                <article class="service-card reveal delay-2">
+                    <div class="service-card__icon" aria-hidden="true">🎯</div>
+                    <h3 class="service-card__title">Meta Ads kampaně</h3>
+                    <p class="service-card__text">
+                        Cílená reklama na Facebooku a Instagramu, která osloví přesně vaše
+                        zákazníky v okolí. Od strategie přes spuštění až po průběžnou
+                        optimalizaci pro maximální návratnost.
+                    </p>
+                    <div class="service-card__tags">
+                        <span class="tag">Facebook Ads</span>
+                        <span class="tag">Instagram Ads</span>
+                        <span class="tag">Retargeting</span>
+                        <span class="tag">Lokální cílení</span>
+                    </div>
+                </article>
+
+                <article class="service-card reveal delay-3">
+                    <div class="service-card__icon" aria-hidden="true">✨</div>
+                    <h3 class="service-card__title">Tvorba obsahu</h3>
+                    <p class="service-card__text">
+                        Profesionální grafika, fotografie a texty, které zaujmou na první
+                        pohled. Obsah přizpůsobený vaší značce, zákazníkům a aktuálním
+                        trendům.
+                    </p>
+                    <div class="service-card__tags">
+                        <span class="tag">Grafika</span>
+                        <span class="tag">Copywriting</span>
+                        <span class="tag">Videokontent</span>
+                        <span class="tag">Brand identity</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         VÝSLEDKY — ✏️ EDITUJTE: Vaše case studies
+         ============================================================ -->
+    <section class="section" id="vysledky" aria-labelledby="vysledky-title">
+        <div class="container">
+
+            <header class="results__head">
+                <span class="label reveal">Skutečné výsledky</span>
+                <h2 class="section-title reveal delay-1" id="vysledky-title">
+                    Co jsme dokázali<br><em>pro naše klienty</em>
+                </h2>
+                <div class="gold-line gold-line--center reveal delay-1"></div>
+                <p class="section-desc reveal delay-2" style="margin-inline: auto; text-align: center;">
+                    Žádné vymyšlené příklady — konkrétní výsledky z reálných kampaní.
+                </p>
+            </header>
+
+            <div class="results__grid">
+
+                <!-- ✏️ EDITUJTE: Case study 1 -->
+                <div class="result-card reveal delay-1">
+                    <div class="result-card__accent" aria-hidden="true"></div>
+                    <div class="result-card__industry">Restaurace · Vyškov</div>
+                    <div class="result-card__metric">+340%</div>
+                    <div class="result-card__metric-label">nárůst rezervací během 3 měsíců</div>
+                    <p class="result-card__desc">
+                        Pomocí cílených Meta Ads a správy Instagramu jsme rozjeli lokální
+                        kampaň, která přivedla restauraci z prázdných stolů na čekací listinu.
+                    </p>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Case study 2 -->
+                <div class="result-card reveal delay-2">
+                    <div class="result-card__accent" aria-hidden="true"></div>
+                    <div class="result-card__industry">Fitness studio · Jihomoravský kraj</div>
+                    <div class="result-card__metric">2,1×</div>
+                    <div class="result-card__metric-label">více nových členů za měsíc</div>
+                    <p class="result-card__desc">
+                        Kompletní správa sociálních sítí a reklamní kampaně přivedly více než
+                        dvojnásobek nových členů oproti předchozímu roku.
+                    </p>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Case study 3 -->
+                <div class="result-card reveal delay-3">
+                    <div class="result-card__accent" aria-hidden="true"></div>
+                    <div class="result-card__industry">E-shop · Brno</div>
+                    <div class="result-card__metric">4,8×</div>
+                    <div class="result-card__metric-label">ROAS z Meta Ads kampaní</div>
+                    <p class="result-card__desc">
+                        Optimalizací reklamní strategie jsme dosáhli návratnosti 4,8 Kč na
+                        každou 1 Kč vloženou do reklamy — při zachování objemu prodejů.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         PROČ MY
+         ============================================================ -->
+    <section class="section section--alt" id="proc-my" aria-labelledby="proc-title">
+        <div class="container">
+            <div class="why__layout">
+
+                <div>
+                    <span class="label reveal">Naše výhody</span>
+                    <h2 class="section-title reveal delay-1" id="proc-title">
+                        Proč <em>právě my</em>
+                    </h2>
+                    <div class="gold-line reveal delay-1"></div>
+
+                    <div class="why__list">
+                        <!-- ✏️ EDITUJTE: Výhody -->
+                        <div class="adv reveal delay-2">
+                            <div class="adv__num" aria-hidden="true">01</div>
+                            <div class="adv__body">
+                                <h3>Výsledky na prvním místě</h3>
+                                <p>Každou kampaň měříme, vyhodnocujeme a průběžně optimalizujeme. Žádné dohady — jen data a konkrétní kroky.</p>
+                            </div>
+                        </div>
+                        <div class="adv reveal delay-3">
+                            <div class="adv__num" aria-hidden="true">02</div>
+                            <div class="adv__body">
+                                <h3>Osobní přístup bez callcentra</h3>
+                                <p>Komunikujete přímo s člověkem, který vaši kampaň skutečně spravuje. Žádné předávání mezi týmy, žádné čekání na odpověď.</p>
+                            </div>
+                        </div>
+                        <div class="adv reveal delay-4">
+                            <div class="adv__num" aria-hidden="true">03</div>
+                            <div class="adv__body">
+                                <h3>Lokální znalost trhu</h3>
+                                <p>Chápeme Vyškov a okolí. Víme, kdo jsou vaši zákazníci, kde jsou a jak je oslovit — protože to je náš domovský region.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Citát -->
+                <div class="reveal delay-2">
+                    <blockquote class="why__quote-card">
+                        <p class="why__quote">
+                            "Nejsme velká korporace se stovkami klientů, kde se ztratíte
+                            v systému. Každý klient dostává přímý kontakt, jasnou komunikaci
+                            a práci, která se odráží v číslech."
+                        </p>
+                        <footer class="why__author">
+                            Hirret Media
+                            <strong>Vyškov &amp; okolí</strong>
+                        </footer>
+                    </blockquote>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         TESTIMONIALY — ✏️ EDITUJTE: Vaše reference
+         ============================================================ -->
+    <section class="section" aria-labelledby="testi-title">
+        <div class="container">
+
+            <header class="testi__head">
+                <span class="label reveal">Reference</span>
+                <h2 class="section-title reveal delay-1" id="testi-title">
+                    Co říkají naši <em>klienti</em>
+                </h2>
+                <div class="gold-line gold-line--center reveal delay-1"></div>
+            </header>
+
+            <div class="testi__grid">
+
+                <!-- ✏️ EDITUJTE: Reference 1 -->
+                <div class="testi-card reveal delay-1">
+                    <div class="testi-card__stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testi-card__text">
+                        "Za 3 měsíce spolupráce jsme ztrojnásobili počet rezervací. Konečně
+                        marketing, který skutečně funguje a neplatím jen za hezké obrázky."
+                    </p>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">M</div>
+                        <div>
+                            <!-- ✏️ Jméno a firma -->
+                            <div class="testi-card__name">Martin K.</div>
+                            <div class="testi-card__company">Restaurace, Vyškov</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Reference 2 -->
+                <div class="testi-card reveal delay-2">
+                    <div class="testi-card__stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testi-card__text">
+                        "Hirret Media nám pomohli postavit brand na Instagramu od nuly. Teď máme
+                        stálé zákazníky, kteří nás sledují a pravidelně se vracejí."
+                    </p>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">L</div>
+                        <div>
+                            <div class="testi-card__name">Lucie P.</div>
+                            <div class="testi-card__company">Fitness studio, Jihomoravský kraj</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ✏️ EDITUJTE: Reference 3 -->
+                <div class="testi-card reveal delay-3">
+                    <div class="testi-card__stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testi-card__text">
+                        "Oceňuji hlavně rychlost a přímou komunikaci. Vždy vím, co se děje
+                        s mými kampaněmi a výsledky mluví samy za sebe."
+                    </p>
+                    <div class="testi-card__author">
+                        <div class="testi-card__avatar">T</div>
+                        <div>
+                            <div class="testi-card__name">Tomáš V.</div>
+                            <div class="testi-card__company">E-shop, Brno</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         JAK PRACUJEME
+         ============================================================ -->
+    <section class="section section--alt" id="proces" aria-labelledby="proces-title">
+        <div class="container">
+
+            <header class="process__head">
+                <span class="label reveal">Spolupráce krok za krokem</span>
+                <h2 class="section-title reveal delay-1" id="proces-title">
+                    Jak <em>pracujeme</em>
+                </h2>
+                <div class="gold-line gold-line--center reveal delay-1"></div>
+            </header>
+
+            <div class="process__grid">
+                <!-- ✏️ EDITUJTE: Kroky procesu -->
+                <div class="process-step reveal delay-1">
+                    <div class="process-step__num">01</div>
+                    <h3 class="process-step__title">Konzultace zdarma</h3>
+                    <p class="process-step__text">Poznáme vaše podnikání, cíle a konkurenci. Navrhneme strategii přímo pro váš trh — bez závazků.</p>
+                </div>
+                <div class="process-step reveal delay-2">
+                    <div class="process-step__num">02</div>
+                    <h3 class="process-step__title">Strategie & obsah</h3>
+                    <p class="process-step__text">Připravíme plán, vizuální identitu a první obsah. Vše schválíte před zveřejněním — nic nejde ven bez vašeho souhlasu.</p>
+                </div>
+                <div class="process-step reveal delay-3">
+                    <div class="process-step__num">03</div>
+                    <h3 class="process-step__title">Spuštění kampaní</h3>
+                    <p class="process-step__text">Spustíme správu sítí a Meta Ads kampaně. Sledujeme výkon, testujeme a průběžně optimalizujeme.</p>
+                </div>
+                <div class="process-step reveal delay-4">
+                    <div class="process-step__num">04</div>
+                    <h3 class="process-step__title">Reporty & růst</h3>
+                    <p class="process-step__text">Každý měsíc dostanete přehledný report s výsledky. Víte přesně, co funguje a kam vaše investice míří.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         CTA BANNER — ✏️ EDITUJTE: Text banneru
+         ============================================================ -->
+    <section class="section" aria-label="Výzva k akci">
+        <div class="container">
+            <div class="cta-banner reveal">
+                <h2 class="cta-banner__title">
+                    Připraveni přestat hádat<br>a začít <em>růst?</em>
+                </h2>
+                <p class="cta-banner__text">
+                    Zarezervujte si bezplatnou konzultaci. Podíváme se na vaše podnikání,
+                    řekneme vám upřímně, co funguje — a co ne.
+                </p>
+                <div class="cta-banner__actions">
+                    <a href="#kontakt" class="btn btn--gold btn--lg">Chci konzultaci zdarma &rarr;</a>
+                    <a href="https://wa.me/420702899675?text=Dobrý%20den%2C%20mám%20zájem%20o%20konzultaci."
+                       target="_blank" rel="noopener"
+                       class="btn btn--outline">Napište na WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         FAQ
+         ============================================================ -->
+    <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+        <div class="container">
+
+            <header class="faq__head">
+                <span class="label reveal">Časté otázky</span>
+                <h2 class="section-title reveal delay-1" id="faq-title">
+                    Máte <em>otázky?</em>
+                </h2>
+                <div class="gold-line reveal delay-1"></div>
+            </header>
+
+            <div class="faq__list reveal delay-2">
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-item__btn" aria-expanded="false">
+                        <span itemprop="name">Jak rychle uvidím výsledky?</span>
+                        <span class="faq-item__icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="faq-item__answer-inner" itemprop="text">
+                            První výsledky jsou obvykle viditelné do 4–8 týdnů. Organický dosah na sociálních sítích roste postupně, placené Meta Ads kampaně mohou přinést první výsledky již v prvním týdnu po spuštění.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-item__btn" aria-expanded="false">
+                        <span itemprop="name">Kolik stojí správa sociálních sítí?</span>
+                        <span class="faq-item__icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="faq-item__answer-inner" itemprop="text">
+                            Cena se odvíjí od rozsahu spolupráce a počtu sítí. Nabízíme bezplatnou konzultaci, kde navrhneme řešení přizpůsobené vašemu rozpočtu a cílům.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-item__btn" aria-expanded="false">
+                        <span itemprop="name">Musím mít velký rozpočet na Facebook reklamu?</span>
+                        <span class="faq-item__icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="faq-item__answer-inner" itemprop="text">
+                            Ne. Pro lokální firmy na Vyškovsku lze dosáhnout dobrých výsledků i s menším reklamním rozpočtem díky přesnému geografickému cílení na zákazníky v okolí.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-item__btn" aria-expanded="false">
+                        <span itemprop="name">Jak probíhá spolupráce krok za krokem?</span>
+                        <span class="faq-item__icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="faq-item__answer-inner" itemprop="text">
+                            Začínáme bezplatnou konzultací, kde poznáme vaše cíle. Poté připravíme strategii a obsah ke schválení. Po spuštění průběžně optimalizujeme a každý měsíc zasíláme přehledný report.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="faq-item__btn" aria-expanded="false">
+                        <span itemprop="name">Pracujete pouze s firmami z Vyškova?</span>
+                        <span class="faq-item__icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-item__answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div class="faq-item__answer-inner" itemprop="text">
+                            Zaměřujeme se primárně na Vyškov a okolí Jihomoravského kraje, ale spolupracujeme i s firmami z dalších regionů ČR. Neváhejte se ozvat.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         KONTAKT
+         ============================================================ -->
+    <section class="section" id="kontakt" aria-labelledby="kontakt-title">
+        <div class="container">
+            <div class="contact__layout">
+
+                <div>
+                    <span class="label reveal">Pojďme spolupracovat</span>
+                    <h2 class="section-title reveal delay-1" id="kontakt-title">
+                        Začněme <em>spolu</em>
+                    </h2>
+                    <div class="gold-line reveal delay-1"></div>
+                    <p class="section-desc reveal delay-2">
+                        Napište nám a do 24 hodin se ozveme zpět. Nabízíme bezplatnou
+                        konzultaci, kde probereme vaše cíle a navrhneme konkrétní strategii.
+                    </p>
+
+                    <div class="contact__details reveal delay-3">
+                        <div class="contact__row">
+                            <div class="contact__row-icon" aria-hidden="true">✉️</div>
+                            <!-- ✏️ EDITUJTE: Email -->
+                            <button class="email-copy" id="emailCopy" title="Klikněte pro zkopírování">info@hirretmedia.com</button>
+                        </div>
+                        <div class="contact__row">
+                            <div class="contact__row-icon" aria-hidden="true">📞</div>
+                            <!-- ✏️ EDITUJTE: Telefon -->
+                            <a href="tel:+420702899675">+420 702 899 675</a>
+                        </div>
+                        <div class="contact__row">
+                            <div class="contact__row-icon" aria-hidden="true">📍</div>
+                            <span>Vyškov a okolí, Jihomoravský kraj</span>
+                        </div>
+                        <div class="contact__row">
+                            <div class="contact__row-icon" aria-hidden="true">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="color:var(--gold)"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            </div>
+                            <!-- ✏️ EDITUJTE: Instagram -->
+                            <a href="https://instagram.com/hirretmedia" target="_blank" rel="noopener">@hirretmedia</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reveal delay-2">
+                    <div class="form-box">
+                        <!-- ✏️ EDITUJTE: Formspree ID → formspree.io/f/XXXXXXXX -->
+                        <form id="contactForm" novalidate>
+                            <input type="hidden" name="_formspree_id" value="mgorwepa">
+                            <input type="hidden" name="_subject" value="Nová zpráva z hirretmedia.com">
+                            <input type="hidden" name="_language" value="cs">
+
+                            <div class="form-group">
+                                <label class="form-label" for="fname">Jméno a příjmení</label>
+                                <input class="form-input" type="text" id="fname" name="name"
+                                       placeholder="Jan Novák" autocomplete="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="femail">E-mailová adresa</label>
+                                <input class="form-input" type="email" id="femail" name="email"
+                                       placeholder="jan@firma.cz" autocomplete="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="fmsg">Vaše zpráva</label>
+                                <textarea class="form-textarea" id="fmsg" name="message"
+                                          placeholder="Řekněte nám o vašem podnikání a co byste chtěli zlepšit…" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--gold form-submit" id="formBtn">
+                                Odeslat zprávu &rarr;
+                            </button>
+                        </form>
+
+                        <div class="form-success" id="formSuccess" aria-live="polite">
+                            <div class="form-success__icon" aria-hidden="true">✦</div>
+                            <div class="form-success__title">Zpráva odeslána!</div>
+                            <p class="form-success__text">Ozveme se vám do 24 hodin.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container footer__inner">
+            <div class="footer__logo">
+                <img src="hirret_media_logo.svg" alt="Hirret Media" height="36" width="auto" loading="lazy">
+            </div>
+            <nav class="footer__links" aria-label="Patička navigace">
+                <a href="#sluzby">Služby</a>
+                <a href="#vysledky">Výsledky</a>
+                <a href="#proc-my">O nás</a>
+                <a href="#kontakt">Kontakt</a>
+            </nav>
+            <!-- ✏️ EDITUJTE: Rok a název -->
+            <p class="footer__copy">&copy; 2026 Hirret Media &middot; Vyškov</p>
+        </div>
+    </footer>
+
+
+    <!-- Toast -->
+    <div class="toast" id="toast">✓ Email zkopírován</div>
+
+    <!-- WhatsApp floating button -->
+    <!-- ✏️ EDITUJTE: WhatsApp číslo v href -->
+    <a class="whatsapp-btn"
+       href="https://wa.me/420702899675?text=Dobrý%20den%2C%20mám%20zájem%20o%20konzultaci."
+       target="_blank" rel="noopener" aria-label="Napište nám na WhatsApp">
+        <span class="whatsapp-btn__tooltip">Napište nám na WhatsApp</span>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <!-- Cookie banner -->
+    <div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Souhlas s cookies">
+        <p class="cookie-banner__text">
+            <strong>Cookies.</strong> Používáme analytické cookies, abychom věděli, co na webu funguje. Žádné sledování třetích stran.
+        </p>
+        <div class="cookie-banner__actions">
+            <button class="cookie-btn cookie-btn--reject" id="cookieReject">Odmítnout</button>
+            <button class="cookie-btn cookie-btn--accept" id="cookieAccept">Přijmout</button>
+        </div>
+    </div>
+
+
+    <!-- ============================================================
+         JAVASCRIPT
+         ============================================================ -->
+    <script>
+        // ── Scroll reveal ─────────────────────────────────────────────
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    revealObserver.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        window.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.hero .reveal').forEach((el, i) => {
+                setTimeout(() => el.classList.add('visible'), 80 + i * 110);
+            });
+        });
+
+        // ── Sticky nav ────────────────────────────────────────────────
+        const nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', () => nav.classList.toggle('is-sticky', window.scrollY > 50), { passive: true });
+
+        // ── Mobilní menu ──────────────────────────────────────────────
+        const burger   = document.getElementById('navBurger');
+        const navLinks = document.getElementById('navLinks');
+        burger.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('is-open');
+            burger.classList.toggle('is-open', isOpen);
+            burger.setAttribute('aria-expanded', String(isOpen));
+        });
+        navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            navLinks.classList.remove('is-open');
+            burger.classList.remove('is-open');
+            burger.setAttribute('aria-expanded', 'false');
+        }));
+
+        // ── Aktivní odkaz při scrollu ─────────────────────────────────
+        const sections = document.querySelectorAll('section[id]');
+        const navItems = document.querySelectorAll('.nav__links a');
+        new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    navItems.forEach(a => a.style.color = '');
+                    const active = document.querySelector(`.nav__links a[href="#${e.target.id}"]`);
+                    if (active) active.style.color = 'var(--gold)';
+                }
+            });
+        }, { threshold: 0.45 }).observe !== undefined &&
+        sections.forEach(s => new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    navItems.forEach(a => a.style.color = '');
+                    const active = document.querySelector(`.nav__links a[href="#${e.target.id}"]`);
+                    if (active) active.style.color = 'var(--gold)';
+                }
+            });
+        }, { threshold: 0.45 }).observe(s));
+
+        // ── Kontaktní formulář → Formspree ────────────────────────────
+        const FORMSPREE_ID = 'mgorwepa'; // ✏️ Změňte na vaše Formspree ID
+        const form    = document.getElementById('contactForm');
+        const success = document.getElementById('formSuccess');
+        const formBtn = document.getElementById('formBtn');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const inputs = form.querySelectorAll('[required]');
+            let valid = true;
+            inputs.forEach(inp => {
+                if (!inp.value.trim()) { inp.style.borderColor = 'rgba(220,80,80,0.7)'; valid = false; }
+                else inp.style.borderColor = '';
+            });
+            if (!valid) return;
+
+            formBtn.textContent = 'Odesílám…';
+            formBtn.disabled = true;
+            try {
+                const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+                    method: 'POST', body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+                if (res.ok) {
+                    form.style.display = 'none';
+                    success.style.display = 'block';
+                } else {
+                    formBtn.textContent = 'Chyba — zkuste znovu';
+                    formBtn.disabled = false;
+                }
+            } catch {
+                formBtn.textContent = 'Chyba připojení — zkuste znovu';
+                formBtn.disabled = false;
+            }
+        });
+
+        // ── Email copy ────────────────────────────────────────────────
+        const emailBtn = document.getElementById('emailCopy');
+        const toast    = document.getElementById('toast');
+        let toastTimer;
+        emailBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText('info@hirretmedia.com').then(() => {
+                clearTimeout(toastTimer);
+                toast.classList.add('show');
+                toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
+            });
+        });
+
+        // ── Cookie banner ─────────────────────────────────────────────
+        const cookieBanner = document.getElementById('cookieBanner');
+        if (localStorage.getItem('cookie_consent')) cookieBanner.classList.add('hidden');
+        const setCookieConsent = v => { localStorage.setItem('cookie_consent', v); cookieBanner.classList.add('hidden'); };
+        document.getElementById('cookieAccept').addEventListener('click', () => setCookieConsent('accepted'));
+        document.getElementById('cookieReject').addEventListener('click', () => setCookieConsent('rejected'));
+
+        // ── FAQ accordion ─────────────────────────────────────────────
+        document.querySelectorAll('.faq-item__btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const isOpen = btn.classList.contains('open');
+                document.querySelectorAll('.faq-item__btn.open').forEach(b => {
+                    b.classList.remove('open');
+                    b.setAttribute('aria-expanded', 'false');
+                    b.nextElementSibling.classList.remove('open');
+                });
+                if (!isOpen) {
+                    btn.classList.add('open');
+                    btn.setAttribute('aria-expanded', 'true');
+                    btn.nextElementSibling.classList.add('open');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
