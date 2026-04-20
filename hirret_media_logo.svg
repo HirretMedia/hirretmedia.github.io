@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="220" height="70" viewBox="0 0 220 70" role="img" aria-label="Hirret Media logo">
   <title>Hirret Media</title>
   <text x="8"  y="52" font-size="40" font-weight="700" fill="#f2f2f2" font-family="Georgia,serif">H</text>
-  <text x="44" y="52" font-size="40" font-weight="700" fill="#00c896" font-family="Georgia,serif" opacity="0.95">M</text>
-  <line x1="86" y1="14" x2="86" y2="56" stroke="#00c896" stroke-width="1" opacity="0.4"/>
+  <text x="44" y="52" font-size="40" font-weight="700" fill="#00d4c0" font-family="Georgia,serif" opacity="0.95">M</text>
+  <line x1="86" y1="14" x2="86" y2="56" stroke="#00d4c0" stroke-width="1" opacity="0.4"/>
   <text x="98"  y="33" font-size="13" font-weight="700" fill="#f2f2f2" font-family="Arial,sans-serif" letter-spacing="2.5">HIRRET</text>
-  <text x="98"  y="50" font-size="8.5" fill="#00c896" font-family="Arial,sans-serif" letter-spacing="4.5">MEDIA</text>
+  <text x="98"  y="50" font-size="8.5" fill="#00d4c0" font-family="Arial,sans-serif" letter-spacing="4.5">MEDIA</text>
 </svg>

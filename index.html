@@ -78,12 +78,12 @@
             --bg-alt:           #0b0b14;
             --bg-input:         rgba(255,255,255,0.04);
 
-            --gold:             #00c896;
-            --gold-light:       #34e0b0;
-            --gold-dark:        #009970;
-            --gold-glow:        rgba(0,200,150,0.15);
-            --gold-border:      rgba(0,200,150,0.20);
-            --gold-border-hover:rgba(0,200,150,0.55);
+            --gold:             #00d4c0;
+            --gold-light:       #22ecd4;
+            --gold-dark:        #00a896;
+            --gold-glow:        rgba(0,212,192,0.15);
+            --gold-border:      rgba(0,212,192,0.20);
+            --gold-border-hover:rgba(0,212,192,0.55);
 
             --text-primary:     #f2f2f2;
             --text-muted:       #8a8a9e;
@@ -109,7 +109,7 @@
             --radius-lg:        22px;
             --radius-pill:      100px;
             --shadow-card:      0 12px 40px rgba(0,0,0,0.45);
-            --shadow-gold:      0 0 50px rgba(0,200,150,0.14);
+            --shadow-gold:      0 0 50px rgba(0,212,192,0.14);
 
             --ease:             0.3s ease;
         }
@@ -225,7 +225,7 @@
         .btn--gold:hover {
             background: linear-gradient(130deg, var(--gold-light) 0%, var(--gold) 100%);
             transform: translateY(-3px);
-            box-shadow: 0 10px 32px rgba(0,200,150,0.38);
+            box-shadow: 0 10px 32px rgba(0,212,192,0.38);
         }
         .btn--gold:active { transform: translateY(-1px); }
         .btn--outline {
@@ -237,7 +237,7 @@
             background: var(--gold);
             color: #07100e;
             transform: translateY(-3px);
-            box-shadow: 0 8px 28px rgba(0,200,150,0.28);
+            box-shadow: 0 8px 28px rgba(0,212,192,0.28);
         }
         .btn--lg { padding: 1.1rem 2.6rem; font-size: 0.9rem; }
 
@@ -331,8 +331,8 @@
         .hero__grid {
             position: absolute; inset: 0;
             background-image:
-                linear-gradient(rgba(0,200,150,0.035) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0,200,150,0.035) 1px, transparent 1px);
+                linear-gradient(rgba(0,212,192,0.035) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0,212,192,0.035) 1px, transparent 1px);
             background-size: 70px 70px;
             mask-image: radial-gradient(ellipse 75% 80% at 50% 50%, black 20%, transparent 100%);
             pointer-events: none;
@@ -343,7 +343,7 @@
             transform: translateX(-50%);
             width: min(700px, 90vw);
             height: min(700px, 90vw);
-            background: radial-gradient(circle, rgba(0,200,150,0.09) 0%, transparent 65%);
+            background: radial-gradient(circle, rgba(0,212,192,0.09) 0%, transparent 65%);
             pointer-events: none;
         }
         .hero__content { position: relative; z-index: 1; max-width: 860px; }
@@ -434,8 +434,8 @@
         .service-card:hover::after { opacity: 1; }
         .service-card__icon {
             width: 54px; height: 54px;
-            background: rgba(0,200,150,0.10);
-            border: 1px solid rgba(0,200,150,0.18);
+            background: rgba(0,212,192,0.10);
+            border: 1px solid rgba(0,212,192,0.18);
             border-radius: 14px;
             display: flex; align-items: center; justify-content: center;
             font-size: 1.7rem;
@@ -453,8 +453,8 @@
             font-size: 0.73rem; font-weight: 500;
             padding: 0.28rem 0.75rem;
             border-radius: var(--radius-pill);
-            background: rgba(0,200,150,0.08);
-            border: 1px solid rgba(0,200,150,0.22);
+            background: rgba(0,212,192,0.08);
+            border: 1px solid rgba(0,212,192,0.22);
             color: var(--gold);
             letter-spacing: 0.04em;
         }
@@ -554,7 +554,7 @@
            CTA BANNER
            ================================================================ */
         .cta-banner {
-            background: linear-gradient(135deg, rgba(0,200,150,0.12) 0%, rgba(0,200,150,0.04) 100%);
+            background: linear-gradient(135deg, rgba(0,212,192,0.12) 0%, rgba(0,212,192,0.04) 100%);
             border: 1px solid var(--gold-border);
             border-radius: var(--radius-lg);
             padding: clamp(2.5rem, 6vw, 5rem) clamp(1.5rem, 5vw, 4rem);
@@ -565,7 +565,7 @@
         .cta-banner::before {
             content: '';
             position: absolute; inset: 0;
-            background: radial-gradient(ellipse 60% 70% at 50% 50%, rgba(0,200,150,0.07), transparent);
+            background: radial-gradient(ellipse 60% 70% at 50% 50%, rgba(0,212,192,0.07), transparent);
             pointer-events: none;
         }
         .cta-banner__title {
@@ -611,7 +611,7 @@
             cursor: pointer;
             transition: color var(--ease), background var(--ease);
         }
-        .faq-item__btn:hover { color: var(--gold); background: rgba(0,200,150,0.03); }
+        .faq-item__btn:hover { color: var(--gold); background: rgba(0,212,192,0.03); }
         .faq-item__btn.open  { color: var(--gold); }
         .faq-item__icon {
             flex-shrink: 0;
@@ -644,8 +644,8 @@
         .contact__row { display: flex; align-items: center; gap: 1rem; font-size: 0.95rem; color: var(--text-muted); }
         .contact__row-icon {
             width: 42px; height: 42px;
-            background: rgba(0,200,150,0.09);
-            border: 1px solid rgba(0,200,150,0.18);
+            background: rgba(0,212,192,0.09);
+            border: 1px solid rgba(0,212,192,0.18);
             border-radius: 11px;
             display: flex; align-items: center; justify-content: center;
             font-size: 1.1rem; flex-shrink: 0;
@@ -668,7 +668,7 @@
             appearance: none;
         }
         .form-input::placeholder, .form-textarea::placeholder { color: rgba(138,138,158,0.45); }
-        .form-input:focus, .form-textarea:focus { border-color: var(--gold); background: rgba(0,200,150,0.04); }
+        .form-input:focus, .form-textarea:focus { border-color: var(--gold); background: rgba(0,212,192,0.04); }
         .form-textarea { resize: vertical; min-height: 130px; }
         .form-submit { width: 100%; margin-top: 0.5rem; padding-block: 1.05rem; font-size: 0.9rem; }
         .form-success { display: none; text-align: center; padding: 2.5rem 1rem; }
@@ -701,11 +701,11 @@
             background: linear-gradient(135deg, var(--gold), var(--gold-light));
             border-radius: 50%;
             display: flex; align-items: center; justify-content: center;
-            box-shadow: 0 6px 24px rgba(0,200,150,0.4);
+            box-shadow: 0 6px 24px rgba(0,212,192,0.4);
             transition: transform var(--ease), box-shadow var(--ease);
             border: none; cursor: pointer;
         }
-        .whatsapp-btn:hover { transform: translateY(-4px) scale(1.06); box-shadow: 0 12px 36px rgba(0,200,150,0.55); }
+        .whatsapp-btn:hover { transform: translateY(-4px) scale(1.06); box-shadow: 0 12px 36px rgba(0,212,192,0.55); }
         .whatsapp-btn svg { width: 28px; height: 28px; fill: #07100e; }
         .whatsapp-btn__tooltip {
             position: absolute; right: 68px;
@@ -748,7 +748,7 @@
         .cookie-banner__actions { display: flex; gap: 0.75rem; flex-shrink: 0; }
         .cookie-btn { padding: 0.65rem 1.5rem; border-radius: var(--radius-pill); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer; border: none; transition: var(--ease); }
         .cookie-btn--accept { background: linear-gradient(135deg, var(--gold), var(--gold-light)); color: #07100e; }
-        .cookie-btn--accept:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,200,150,0.35); }
+        .cookie-btn--accept:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,212,192,0.35); }
         .cookie-btn--reject { background: transparent; color: var(--text-muted); border: 1.5px solid rgba(138,138,158,0.3); }
         .cookie-btn--reject:hover { border-color: var(--text-muted); color: var(--text-primary); }
         @media (max-width: 600px) {
